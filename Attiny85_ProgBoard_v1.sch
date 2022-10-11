@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_US R?
-U 1 1 6342D2C3
-P 7200 3050
-F 0 "R?" H 7268 3096 50  0000 L CNN
-F 1 "R_US" H 7268 3005 50  0000 L CNN
-F 2 "" V 7240 3040 50  0001 C CNN
-F 3 "~" H 7200 3050 50  0001 C CNN
-	1    7200 3050
+L MCU_Microchip_ATtiny:ATtiny85V-10PU U1
+U 1 1 6345C714
+P 4750 3000
+F 0 "U1" H 4220 3046 50  0000 R CNN
+F 1 "ATtiny85V-10PU" H 4220 2955 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4750 3000 50  0001 C CNN
+	1    4750 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

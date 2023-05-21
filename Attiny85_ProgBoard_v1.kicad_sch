@@ -106,6 +106,7 @@
   )
 
 
+
   (wire (pts (xy 120.65 60.96) (xy 138.43 60.96))
     (stroke (width 0) (type default))
     (uuid 0156e967-8405-43f4-b875-b68b6a7125e9)
@@ -202,11 +203,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 157.48 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fe17561-f16b-41b0-a094-7096312c4b94)
-    (property "Reference" "J7" (at 158.75 88.265 0)
+    (property "Reference" "~RESET/PB4" (at 158.1912 89.2168 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 158.75 90.805 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 157.48 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -218,7 +219,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J7") (unit 1)
+          (reference "~RESET/PB4") (unit 1)
         )
       )
     )
@@ -227,11 +228,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 156.21 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e934a44-18d7-4367-a3fd-24a512313f3f)
-    (property "Reference" "J4" (at 157.48 73.025 0)
+    (property "Reference" "PB2" (at 156.9212 73.9768 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 157.48 75.565 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 156.21 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -243,7 +244,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J4") (unit 1)
+          (reference "PB2") (unit 1)
         )
       )
     )
@@ -252,11 +253,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 156.21 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85bb25da-7c5a-4bea-8b6e-2202d3c061d7)
-    (property "Reference" "J1" (at 157.48 65.405 0)
+    (property "Reference" "VCC1" (at 156.9212 66.3568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x01_Female" (at 157.48 67.945 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "Conn_01x01_Female" (at 156.9212 67.3173 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 156.21 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -268,7 +269,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J1") (unit 1)
+          (reference "VCC1") (unit 1)
         )
       )
     )
@@ -277,11 +278,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 157.48 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86560020-bd1d-4536-bf3c-a716eb5c9cd1)
-    (property "Reference" "J5" (at 158.75 83.185 0)
+    (property "Reference" "XTAL1/PB3" (at 158.1912 84.1368 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 158.75 85.725 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 157.48 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -293,7 +294,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J5") (unit 1)
+          (reference "XTAL1/PB3") (unit 1)
         )
       )
     )
@@ -302,11 +303,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 157.48 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9382831e-1b9f-47e5-825c-4bf2cea6cdd3)
-    (property "Reference" "J6" (at 158.75 85.725 0)
+    (property "Reference" "XTAL2/PB4" (at 158.1912 86.6768 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 158.75 88.265 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 157.48 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -318,7 +319,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J6") (unit 1)
+          (reference "XTAL2/PB4") (unit 1)
         )
       )
     )
@@ -327,11 +328,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 157.48 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b85a9edb-6ab6-414c-be01-a1d73c65be51)
-    (property "Reference" "J8" (at 158.75 90.805 0)
+    (property "Reference" "GND1" (at 158.1912 91.7568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 158.75 93.345 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 157.48 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -343,7 +344,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J8") (unit 1)
+          (reference "GND1") (unit 1)
         )
       )
     )
@@ -352,11 +353,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 156.21 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c58bb5f6-3cd0-4f8b-923e-ad0c21f3bb08)
-    (property "Reference" "J2" (at 157.48 67.945 0)
+    (property "Reference" "AREF/PB0" (at 156.9212 68.8968 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 157.48 70.485 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 156.21 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -368,7 +369,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J2") (unit 1)
+          (reference "AREF/PB0") (unit 1)
         )
       )
     )
@@ -377,11 +378,11 @@
   (symbol (lib_id "Connector:Conn_01x01_Female") (at 156.21 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5862aa1-d52e-4d1c-9057-6fd6ac8ae237)
-    (property "Reference" "J3" (at 157.48 70.485 0)
+    (property "Reference" "PB1" (at 156.9212 71.4368 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Female" (at 157.48 73.025 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Pin:PinHole_01x01" (at 156.21 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -393,7 +394,7 @@
     (instances
       (project "Attiny85_ProgBoard_v1"
         (path "/461172af-f3d0-444f-a1ea-3ea6bb3ec9d2"
-          (reference "J3") (unit 1)
+          (reference "PB1") (unit 1)
         )
       )
     )
